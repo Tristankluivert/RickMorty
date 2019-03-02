@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragments.AboutFrag">
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/pic"
+                        android:id="@+id/mypic"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="140dp"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/aboutme"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="230dp"
+                        android:text="Made with love"
+                       android:layout_centerHorizontal="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="230dp"
+                       android:layout_alignParentRight="true"
+                        android:layout_marginEnd="90dp"
+                        android:src="@drawable/hearts"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/facebook"
+                        android:layout_marginTop="300dp"
+                        android:layout_marginStart="90dp"
+                        android:id="@+id/facebook"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/github"
+                        android:layout_marginTop="300dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/github"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/twitter"
+                        android:layout_marginTop="300dp"
+                       android:layout_alignParentRight="true"
+                        android:layout_marginEnd="90dp"
+                        android:id="@+id/twitter"
+                        />
+
+
+
+
+
+
+</RelativeLayout>
